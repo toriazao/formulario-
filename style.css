@@ -1,0 +1,32 @@
+
+
+body {
+    background-image: url(./img/barbie.webp); /*coloca imagem de fundo*/
+    background-repeat: no-repeat; /* não repete o fundo */
+    background-size: cover;
+    color: aliceblue;
+
+}
+
+h1 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: rgb(255, 255, 255);
+
+}
+
+forms {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+textarea {
+    resize: none
+}
+
+fieldset {
+    width: 500px;
+}
+.formulario_inteiro {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Viisa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <forms>
+
+        <h1>SescWarts</h1>
+
+        <fieldset> <!-- barrinhas ao redor -->
+            <legend> informações pessoais : </legend>
+            <!-- placeholder é a instrução -->
+
+            <!-- required = obrigatório -->
+            <label for="name"> barbiegueti: </label><br>
+            <input type="text" placeholder="seu vulgo"
+            name="name" id="name" required><br><br>
+
+            <label for="email"> email: </label><br>
+            <input type="email" id="email" placeholder="seu email de barbiegreti"
+            required><br><br>
+
+            <label for="password"> senha: </label><br>
+            <input type="password" id="password" name="password" placeholder="sua senha de barbiegreti" required>
+
+
+        </fieldset>
+
+        <fieldset> <!-- barrinhas ao redor -->
+            <legend>barbi grew: </legend>
+
+            <label for="">escolha sua barbie preferida:</label>
+
+            <br><br>
+            <!-- type é o tipo -->
+            <!-- id é a identificação do componente -->
+            <!-- name é o que faz os radios se unirem -->
+            <input type="radio" id="moda e magia" name="barbie">
+            <label for="moda e magia">moda e magia</label>
+
+            <input type="radio" id="princesa e a pop star" name="barbie">
+            <label for="princesa e a pop star">princesa e a pop star</label>
+
+            <input type="radio" id="merlia" name="barbie">
+            <label for="merlia">em vida de sereia</label>
+
+            <input type="radio" id="diamantes" name="barbie">
+            <label for="diamantes">castelo de diamantes</label>
+
+            <br><br>
+
+            <label for="color">Cor predileta:</label><br>
+            <input type="color"><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Comentários: </legend>
+
+            <label for="commit">Comentários:</label> <br>
+            <!-- cols = colunas, rows = linhas -->
+            <textarea name="commit"
+                id="commit" cols="60" rows="7">
+        </textarea>
+
+        </fieldset>
+        <legend>Envio </legend>
+
+        <input type="checkbox">
+        Eu aceito todos os Termos e Condições
+        
+    </fieldset>
+
+    </forms>
+
+
+
+</body>
+</html>
